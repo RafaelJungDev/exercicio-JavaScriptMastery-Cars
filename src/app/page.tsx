@@ -23,33 +23,12 @@ export default function Home() {
   return (
     <main className="overflow-hidden">
       <SimpleSlider />
-      {/* <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-      </Slider> */}
-      {/* <Hero /> */}
 
       <div className="mt-12 padding-x padding-y max-width" id="discover">
-        {/* <div className="home__text-container">
+        <div className="home__text-container">
           <h1 className="text-4xl font-extrabold">Car Catalogue</h1>
           <p>Explore the car you might like</p>
-        </div> */}
+        </div>
 
         <div className="home__filters">
           <SearchBar />
